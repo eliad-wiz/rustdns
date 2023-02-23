@@ -200,7 +200,7 @@ mod display;
 mod dns;
 mod errors;
 mod from_str;
-mod io;
+pub mod io;
 pub mod resource;
 pub mod types;
 pub mod util;
