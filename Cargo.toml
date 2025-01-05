@@ -43,6 +43,8 @@ zones = ["pest", "pest_consume", "pest_derive"]
 # A private feature for common http dependencies.
 http_deps = ["http", "url", "hyper", "hyper-alpn", "mime"]
 
+arbitrary = []
+
 [dependencies]
 
 # Used for the web clients
